@@ -15,7 +15,19 @@ git add  "nombre_archivo" -> para hacer seguimientos a los archivos
 git add . ->agrega todo lo que esta en tu carpeta donde estas ubicado par haceer el seguimiento
 git add -A ->agrega todo los archivoa la area de seguimientos no importas donde estas ubicado
 git commit -m "mnesaje_commit" -> para guardar nuevo archivo
+
+COMANDOS PARA VER EL HISTORIAL DE LOS COMMIT
 git log -> historial de los commit 
+git log --oneline -> nOS AYUDA EN UNA SOLA LINEA TODO LOS COMMIT QUE SE A HEHCO
+git log --oneline "nombre_archivo" -> NOS DA LA INFORAMCION DE TODO LOS COMMIT DEL ARCHIVO EN UNA SOLA LINEA
+git log  --oneline --author="Exameple:nombre" ->Nos da la informacion de todo los commit que a hecho esa persona en  lineas
+git log  --author= "Exameple_nombre" "nombre_archivo" ->nos da la informacion de los commit que a hecho esa persona en el archivo
+git log --oneline --grep="palabra_buscar" ->nos da la informacion del commit de esa palabra
+
+
+COMANDO PARA VIAJAR EN EL TIEMPO
+git checkout 5abcbcb40 -> CON ESTE COMANDO PUEDO REGRESAR AL COMMIT QUE LE PONGO EN EL ID 
+git  checkout master -> CON ESTE COMANDO REGRESO AL COMMIT QUE ESTABA ACTUAL
 
 comandos para sacar al area de preparacion
 git restore --staged  "nombre_archivo"-> Saca al are de prepacion y el archivo ahora se encuentra en el seguimiento del archivo
@@ -23,3 +35,7 @@ git restore --staged  "nombre_archivo"-> Saca al are de prepacion y el archivo a
 
 COMANOD PARA RESETEAR archivos
 git checkout "nombre_archivo_o_carpeta" ->comando para resetear  el archivo pero archivos no confirmados al commit
+
+
+COMANDO PARA  VER CAMBIOS
+git show  "14b85321b4"  -> con estos comando puedes ver los cambios que se hizo en ese id

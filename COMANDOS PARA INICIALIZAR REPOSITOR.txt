@@ -22,4 +22,4 @@ git restore --staged  "nombre_archivo"-> Saca al are de prepacion y el archivo a
 
 
 COMANOD PARA RESETEAR archivos
-git checkout "nombre_archivo_o_carpeta" ->comando para resetear  el archivo 
+git checkout "nombre_archivo_o_carpeta" ->comando para resetear  el archivo pero archivos no confirmados al commit

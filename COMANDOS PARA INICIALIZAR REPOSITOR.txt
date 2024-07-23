@@ -1,0 +1,16 @@
+COMANDOS PARA INICIALIZAR REPOSITORIO
+git init ->INICIALIZAR REPOSITORIO
+
+git config --global user.name ->"Example:nombre" ->cambiar tu nombre en el git
+git config --global user.email -> "Exameple:Coreo" -> Cambiar tu correo en el git
+git config --global core.editor "Example:Editor" -> Cambia tu editor predeterminado
+
+
+git config user.name ->Información de name
+git config user.email -> Información de correo
+git config core.editor -> Información del editor
+
+git status -> Información estado del proyecto
+git add  "nombre_archivo" -> para hacer seguimientos a los archivos
+git commit -m "mnesaje_commit" -> para guardar nuevo archivo
+git log -> historial de los commit 

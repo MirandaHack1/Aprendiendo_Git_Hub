@@ -16,3 +16,10 @@ git add . ->agrega todo lo que esta en tu carpeta donde estas ubicado par haceer
 git add -A ->agrega todo los archivoa la area de seguimientos no importas donde estas ubicado
 git commit -m "mnesaje_commit" -> para guardar nuevo archivo
 git log -> historial de los commit 
+
+comandos para sacar al area de preparacion
+git restore --staged  "nombre_archivo"-> Saca al are de prepacion y el archivo ahora se encuentra en el seguimiento del archivo
+
+
+COMANOD PARA RESETEAR archivos
+git checkout "nombre_archivo_o_carpeta" ->comando para resetear  el archivo 

@@ -56,3 +56,8 @@ git switch  -c dev ->
 no menclature par crear ramas 
 git switch -c feacture/nombre_descriptivo ejemplo (contact-page) -> se pone feacture para agregar cambios 
 git switch -c fix/title-color ->se pone fix cuando doy una solucion y crea una rama para dar la solucion
+
+
+//coamndos para subir a la nube
+git remote -v  ->para ver si el proyecto esta en alguna parte de la nube
+git remote add origin ruta_del_git -> creando el primer remoto es un estandar poner orgin

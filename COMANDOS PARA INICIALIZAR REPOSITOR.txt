@@ -23,7 +23,7 @@ git log --oneline "nombre_archivo" -> NOS DA LA INFORAMCION DE TODO LOS COMMIT D
 git log  --oneline --author="Exameple:nombre" ->Nos da la informacion de todo los commit que a hecho esa persona en  lineas
 git log  --author= "Exameple_nombre" "nombre_archivo" ->nos da la informacion de los commit que a hecho esa persona en el archivo
 git log --oneline --grep="palabra_buscar" ->nos da la informacion del commit de esa palabra
-
+git log --oneline --graph -> me muestra los commit que tiene cada rama
 
 COMANDO PARA VIAJAR EN EL TIEMPO
 git checkout 5abcbcb40 -> CON ESTE COMANDO PUEDO REGRESAR AL COMMIT QUE LE PONGO EN EL ID 
@@ -48,3 +48,4 @@ git branch -d nombre_rama_quiero_eliminar -> comando para eliminar ramas(pero de
 //metodo recomendable 
 git switch -c  nombre_rama_quiero_crear ->comando para crear ramas este comando es recomendable 
 git switch master -> con este comando regreso a la rama principal  y tambien puedo moverme de ramas solo con el nombre de la rama
+git diff nombre_rama_quiero_diferencia   -> con estsa rama muestra las diferencia que tiene la rama que estas con la que pones ahi 

@@ -49,4 +49,10 @@ git branch -d nombre_rama_quiero_eliminar -> comando para eliminar ramas(pero de
 git switch -c  nombre_rama_quiero_crear ->comando para crear ramas este comando es recomendable 
 git switch master -> con este comando regreso a la rama principal  y tambien puedo moverme de ramas solo con el nombre de la rama
 git diff nombre_rama_quiero_diferencia   -> con estsa rama muestra las diferencia que tiene la rama que estas con la que pones ahi 
-git marge nombre_rama_quier_mezclas -> con este comando puedo mezclar la rama que estoy actul con la nueva rama 
+git marge nombre_rama_quier_mezclas -> con este comando puedo mezclar la rama que estoy actul con la nueva rama
+git switch -c test -> buena practica para mostrar al jefe
+git switch  -c dev -> 
+
+no menclature par crear ramas 
+git switch -c feacture/nombre_descriptivo ejemplo (contact-page) -> se pone feacture para agregar cambios 
+git switch -c fix/title-color ->se pone fix cuando doy una solucion y crea una rama para dar la solucion

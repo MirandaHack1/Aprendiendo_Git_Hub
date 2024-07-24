@@ -39,3 +39,12 @@ git checkout "nombre_archivo_o_carpeta" ->comando para resetear  el archivo pero
 
 COMANDO PARA  VER CAMBIOS
 git show  "14b85321b4"  -> con estos comando puedes ver los cambios que se hizo en ese id
+
+RAMAS GIT 
+git branch -> mostrar toda las ramas creadas
+git checkout -b nombre_rama_quiero_crear ->  comando para crear ramas
+git branch -d nombre_rama_quiero_eliminar -> comando para eliminar ramas(pero debes estar en una rama que no quieras eliminar)
+
+//metodo recomendable 
+git switch -c  nombre_rama_quiero_crear ->comando para crear ramas este comando es recomendable 
+git switch master -> con este comando regreso a la rama principal  y tambien puedo moverme de ramas solo con el nombre de la rama

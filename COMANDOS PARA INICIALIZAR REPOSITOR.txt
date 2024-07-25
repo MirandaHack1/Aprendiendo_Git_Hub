@@ -61,3 +61,14 @@ git switch -c fix/title-color ->se pone fix cuando doy una solucion y crea una r
 //coamndos para subir a la nube
 git remote -v  ->para ver si el proyecto esta en alguna parte de la nube
 git remote add origin ruta_del_git -> creando el primer remoto es un estandar poner orgin
+git push origin  nombre_de rama -> para subir tu rama al repositorio en la nube
+git fetch ->trae los cambios que tiene en la nube no actuliza la inforamcion
+git pull origin nombre_rama_quiero_traer_los_cambios_dela_nube ->trae los cambios que tiene en la nube y actuliza la informacion
+//PARA JALAR CAMBIOS DE MI RAMA ORIGIN DEV  O CUALQUIER OTRA RAMA QUE SE ENCUENTRA EN LA NUBE DEBO DE HACER UN PULL 
+
+
+//comandos para clonar repositorio 
+git clone link_del_repositorio -> clono el repositorio que esta en el link del git-hub
+git ls-remote  -> listado que tiene en la nube en el repositorio que clonastes
+git fetch --all -> Trae informacion de toda las ramas que tenga 
+git branch -a  -> me lista las ramas que estan en el remoto

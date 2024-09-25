@@ -72,3 +72,11 @@ git clone link_del_repositorio -> clono el repositorio que esta en el link del g
 git ls-remote  -> listado que tiene en la nube en el repositorio que clonastes
 git fetch --all -> Trae informacion de toda las ramas que tenga 
 git branch -a  -> me lista las ramas que estan en el remoto
+
+
+//CONSEJOS FINALIZACION DE CURSOS
+git tag v1.0 --> creo una etiqueta para dar la version de mi codigo, SE CREA REMOTO Y DEPSUES TOCA SUBIR AL REMOTO
+poner . en git de la web y me abre el repositorio que estoy  un vistual studio
+
+
+como resolver conflictos en git 
